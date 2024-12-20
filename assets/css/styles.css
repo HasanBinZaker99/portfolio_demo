@@ -259,7 +259,7 @@ img {
   }
 
 /* Further adjustments for 400x557 viewport */
-@media (min-width: 430px) and (max-height: 932px) {
+@media (min-width: 370px) and (max-height: 932px) {
   section#about {
     margin-bottom: 41%;
   }
@@ -276,7 +276,7 @@ img {
     font-size: 0.85rem; /* Smaller font size for limited space */
   }
 }
-@media (min-width: 450px) and (max-height: 1115px) {
+@media (min-width: 340px) and (max-height: 1115px) {
   section#about {
     margin-bottom: 41%;
   }
@@ -371,7 +371,7 @@ img {
 .skills__img {
   border-radius: 0.5rem;
 }
-@media (max-width: 400px) and (max-height: 557px) {
+@media (min-width: 340px) and (max-height: 915px) {
   #skills {
     margin-bottom: 52%;
   }
