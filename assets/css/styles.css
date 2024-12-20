@@ -253,6 +253,11 @@ img {
   width: 200px;
   border-radius: 0.5rem;
 }
+@media screen and (max-width: 640px) {
+  section#about {
+    margin-bottom: 54%;
+  }
+}
 
 /* ===== SKILLS =====*/
 .skills__container {
@@ -329,7 +334,14 @@ img {
 .skills__img {
   border-radius: 0.5rem;
 }
+@media screen and (max-width: 640px) {
+  section#skills {
+    margin-bottom: 54%;
+    height: 100%;
 
+    padding-bottom: 118%;
+  }
+}
 /* ===== WORK =====*/
 .work__container {
   row-gap: 2rem;
