@@ -361,6 +361,15 @@ img {
     flex-direction: column;
   }
 }
+@media (max-width: 558px) and (max-height: 933px) {
+  #skills {
+    margin-bottom: 52%;
+  }
+  .skills__container {
+    display: flex;
+    flex-direction: column;
+  }
+}
 /* ===== WORK =====*/
 .work__container {
   row-gap: 2rem;
