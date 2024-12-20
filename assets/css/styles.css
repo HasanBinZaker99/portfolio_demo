@@ -259,9 +259,9 @@ img {
   }
 
 /* Further adjustments for 400x557 viewport */
-@media (max-width: 400px) and (max-height: 557px) {
-  #about {
-    margin-bottom: 52%;
+@media (min-width: 430px) and (max-height: 932px) {
+  section#about {
+    margin-bottom: 41%;
   }
 
   .about_container {
@@ -362,18 +362,13 @@ img {
   }
 }
 @media (min-width: 430px) and (max-height: 932px) {
-  #skills {
-    margin-bottom: 30%; /* Adjusted for better spacing on iPhone 15 Pro Max */
+  section#skills {
+    margin-bottom: 41%;
   }
   .skills__container {
-    display: flex;
     flex-direction: column;
-    align-items: center; /* Ensure elements are centered */
-    gap: 1.5rem; /* Add spacing between items */
-    justify-content: unset;
   }
 }
-
 /* ===== WORK =====*/
 .work__container {
   row-gap: 2rem;
