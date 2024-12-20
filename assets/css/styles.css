@@ -334,7 +334,7 @@ img {
 .skills__img {
   border-radius: 0.5rem;
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 429px) {
   section#skills {
     margin-bottom: 95%;
     height: 100%;
