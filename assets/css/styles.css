@@ -342,6 +342,16 @@ text-decoration: none;
     margin-bottom: 41%;
   }
 }
+
+/* ===== Professional Certificate =====*/
+div#carouselExampleIndicators {
+  width: 96%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+background-color: black;
+}
 /* ===== WORK =====*/
 .work__container {
   row-gap: 2rem;
