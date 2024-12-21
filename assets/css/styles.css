@@ -347,7 +347,17 @@ text-decoration: none;
 div#carouselExampleIndicators {
   width: 96%;
 }
-
+h2.section-title-professional {
+  position: relative;
+  font-size: var(--h2-font-size);
+  color: var(--first-color);
+  margin-top: var(--mb-2);
+  margin-bottom: var(--mb-4);
+  text-align: center;
+  text-decoration: underline;
+  -webkit-text-decoration-color: red; /* Safari */
+  text-decoration-color: var(--first-color);
+}
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
 background-color: black;
