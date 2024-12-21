@@ -371,20 +371,11 @@ img {
   border-radius: 0.5rem;
 }
 
-@media screen and (min-width: 430px) and (max-width: 1416px) {
+@media screen and (min-width: 350px) and (max-width: 1416px) {
   .bg-grid-nav {
     max-width: 100% !important;
   }
 }
-
-/* @media screen and (max-width: 640px) {
-  section#about {
-    margin-bottom: 54%;
-  }
-
-/* Further adjustments for 400x557 viewport */
-
-
 
 
 /* ===== SKILLS =====*/
