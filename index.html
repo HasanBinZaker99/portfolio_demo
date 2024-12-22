@@ -360,10 +360,12 @@
     </section>
     <!--===== Profesional Certificate =====-->
     <h2 class="section-title-professional">Profesional Certificate</h2>
-    <section id="professional_certificate">
+    <div id="professional_certificate">
 
 
-      <div id="carouselExampleInterval professional_certificate" class="carousel slide" data-bs-ride="carousel">
+
+
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
             <img src="assets/img/certificate/bitm.jpg" class="d-block w-100" alt="...">
@@ -408,7 +410,7 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    </section>
+    </div>
     <!-- Add this section below the SKILLS section in the HTML -->
     <section class="problem-solving section text-center" id="programming_contest">
       <h2 class="section-title feature-vedio-width">Programming Contest</h2>
@@ -532,9 +534,7 @@
   <!--===== MAIN JS =====-->
   <script src="assets/js/main.js"></script>
   <!--======= Bootstrap js =====-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-  </script>
+
   <script>
     const text = document.querySelector(".sec-text");
 
@@ -552,6 +552,9 @@
 
     textLoad();
     setInterval(textLoad, 12000);
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
   </script>
 </body>
 
