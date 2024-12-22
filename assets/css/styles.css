@@ -27,9 +27,6 @@
   --z-fixed: 100;
 }
 
-
-
-
 @media screen and (min-width: 968px) {
   :root {
     --big-font-size: 3.5rem;
@@ -51,7 +48,6 @@ html {
 }
 
 body {
-
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
@@ -85,7 +81,6 @@ img {
 
 /*===== CLASS CSS ===== */
 .logo_animate {
-
   width: 50px;
   height: 50px;
   text-decoration: var(--second-color);
@@ -124,7 +119,6 @@ img {
     left: 0px;
     top: 0px;
   }
-
 }
 
 .text.sec-text:before {
@@ -135,12 +129,11 @@ img {
   height: 100%;
   width: 100%;
   background-color: #010718;
-  border-left: 2px solid #4070F4;
+  border-left: 2px solid #4070f4;
   animation: animate 4s steps(12) infinite;
 }
 
 @keyframes animate {
-
   40%,
   60% {
     left: calc(100% + 4px);
@@ -160,7 +153,6 @@ img {
   text-align: center;
 
   text-decoration-color: var(--first-color);
-  ;
 }
 
 .section-title::after {
@@ -191,8 +183,6 @@ img {
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
 }
-
-
 
 .bd-grid-work {
   max-width: 100%;
@@ -252,6 +242,7 @@ img {
 
 .nav__link:hover::after {
   position: absolute;
+
   content: "";
   width: 100%;
   height: 0.18rem;
@@ -259,8 +250,6 @@ img {
   top: 2rem;
   background-color: var(--first-color);
 }
-
-
 
 .nav__toggle {
   color: var(--second-color);
@@ -272,8 +261,7 @@ img {
 /* General styling for the navbar links */
 .nav-link.active {
   color: #007bff !important;
-  /* Active text color */
-  border-bottom: 2px solid #007bff;
+
   /* Add an underline */
   padding-bottom: 2px;
   /* Adjust spacing for better appearance */
@@ -286,8 +274,8 @@ img {
   /* Default link color */
   text-decoration: none;
   transition: color 0.3s, border-bottom 0.3s;
+  position: relative;
 }
-
 
 .navbar-nav .nav-item {
   margin-left: 15px;
@@ -313,11 +301,6 @@ img {
 }
 
 /* Optional: Make all links blue on focus (accessibility feature) */
-.navbar-nav .nav-link:focus {
-  color: blue;
-
-  text-decoration-color: blue;
-}
 
 /*=== Show menu ===*/
 .show {
@@ -365,7 +348,6 @@ div#home {
 }
 
 .home__img {
-
   right: 0;
   bottom: 0;
   width: 260px;
@@ -410,14 +392,11 @@ div#home {
   margin-bottom: var(--mb-2);
 }
 
-
-
 @media screen and (min-width: 350px) and (max-width: 1416px) {
   .bg-grid-nav {
     max-width: 100% !important;
   }
 }
-
 
 /* ===== SKILLS =====*/
 
@@ -504,8 +483,6 @@ div#home {
     margin-bottom: 41%;
   }
 }
-
-
 
 /* ===== Professional Certificate =====*/
 div#carouselExampleIndicators {
@@ -663,17 +640,12 @@ h2.section-title-professional {
   .contact__container {
     justify-items: center;
   }
-
-
 }
 
 @media screen and (min-width: 768px) {
-
   body {
     margin: 0;
   }
-
-
 
   .section-title {
     margin-bottom: var(--mb-6);
@@ -687,8 +659,6 @@ h2.section-title-professional {
   .nav {
     height: calc(var(--header-height) + 1.5rem);
   }
-
-
 
   .nav__list {
     display: flex;
@@ -707,8 +677,6 @@ h2.section-title-professional {
   .nav__link {
     color: var(--second-color);
   }
-
-
 
   .home__img {
     width: 400px;
@@ -736,14 +704,10 @@ h2.section-title-professional {
 }
 
 @media screen and (min-width: 992px) {
-
-
   .bd-grid {
     margin-left: auto;
     margin-right: auto;
   }
-
-
 
   .home__img {
     width: 450px;
