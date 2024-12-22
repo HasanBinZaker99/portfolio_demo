@@ -270,6 +270,29 @@ img {
 
 /*Active menu*/
 /* General styling for the navbar links */
+.nav-link.active {
+  color: #007bff !important;
+  /* Active text color */
+  border-bottom: 2px solid #007bff;
+  /* Add an underline */
+  padding-bottom: 2px;
+  /* Adjust spacing for better appearance */
+  font-weight: bold;
+  /* Optional: Make the active link bold */
+}
+
+.nav-link {
+  color: #6c757d;
+  /* Default link color */
+  text-decoration: none;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+
+.navbar-nav .nav-item {
+  margin-left: 15px;
+}
+
 .navbar-nav .nav-link {
   color: #000;
   /* Default color */
