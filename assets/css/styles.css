@@ -549,6 +549,7 @@ h2.section-title-professional {
   position: absolute;
   bottom: 0;
   width: 100%;
+  height: 16%;
   transform: translateY(100%);
   transition: transform 0.3s ease;
 }
