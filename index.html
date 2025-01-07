@@ -69,7 +69,7 @@
       <div
         class="d-lg-flex d-md-flex flex-lg-row flex-md-column flex-sm-column justify-content-md-between align-items-center mx-auto"
         id="home">
-        <div>
+        <div class="mt-2">
           <h3 class="home__title">
             Assalamualikum,
             <span class="title_size"> (peace,<br /> mercy and blessing of Allah<br /> be upon you)</span> <br />
@@ -473,9 +473,12 @@
     </section>
     <!--===== WORK =====-->
     <section class="work section " id="work">
-      <h2 class="section-title">Work</h2>
 
-      <div class="work__container bd-grid-work ">
+        <h2 class="section-title">Work</h2>
+        <div id="projects-container" class="work__container bd-grid-work"></div>
+
+      
+      <!-- <div class="work__container bd-grid-work ">
         <a href="" class="work__img ">
           <img src="assets/img/work1.jpg" alt="" />
         </a>
@@ -494,7 +497,7 @@
         <a href="" class="work__img">
           <img src="assets/img/work6.jpg" alt="" />
         </a>
-      </div>
+      </div> -->
     </section>
 
     <!--===== CONTACT =====-->
@@ -529,7 +532,44 @@
     <p class="footer__copy mx-2">&#169; He who created death and life to test you which of you is best in deed [Quran 67:2]
     </p>
   </footer>
-
+  <script>
+    const projects = [
+      {
+        title: "eShop Backend",
+        url: "https://github.com/HasanBinZaker99/eshop_backend",
+        image: "assets/img/work/eshop.png" // Replace with your image URL
+      },
+      {
+        title: "eShop Backend 2",
+        url: "https://github.com/HasanBinZaker99/portfolio",
+        image: "assets/img/work/php.png" // Replace with your image URL
+      },
+      {
+        title: "eShop Backend 3",
+        url: "https://github.com/HasanBinZaker99/Laravel-CRUD",
+        image: "assets/img/work/express.png" // Replace with your image URL
+      }
+    ];
+  
+    const container = document.getElementById("projects-container");
+  
+    projects.forEach(project => {
+      const projectCard = document.createElement("div");
+      projectCard.className = "work__img";
+      projectCard.innerHTML = `
+        <a href="${project.url}" target="_blank">
+          <img src="${project.image}" alt="${project.title}" class="project-image" />
+          <div class="project-details">
+            <h3>${project.title}</h3>
+            <p>View on GitHub</p>
+          </div>
+        </a>
+      `;
+      container.appendChild(projectCard);
+    });
+  </script>
+  
+  
   <!--===== SCROLL REVEAL =====-->
   <script src="https://unpkg.com/scrollreveal"></script>
 
