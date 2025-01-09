@@ -564,7 +564,15 @@ h2.section-title-professional {
   font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.8);
 }
-
+@media (max-width: 576px) {
+  .project-details {
+    height: 39%;
+    padding: 0 !important;
+  }
+  p.project_margin {
+    margin-top: 0 !important;
+  }
+}
 .work__img:hover .project-details {
   transform: translateY(0);
 }
